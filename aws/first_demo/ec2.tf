@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "nithin-aws-ec2-instance-accenture"
+    Name = "nithin-aws-ec2-instance-accenturnew"
     Env = "test"
     owner= "nithin"
   }
